@@ -19,15 +19,7 @@ var srcDir = './src/';
 var srcFiles = srcDir + '**.js';
 var outDir = './';
 
-var header = "/*!\n\
- * chartjs-plugin-zoom\n\
- * http://chartjs.org/\n\
- * Version: {{ version }}\n\
- *\n\
- * Copyright 2016 Evert Timberg\n\
- * Released under the MIT license\n\
- * https://github.com/chartjs/chartjs-plugin-zoom/blob/master/LICENSE.md\n\
- */\n";
+var header = "/*!\n\n*/\n";
 
 gulp.task('default', ['lint', 'build', 'watch']);
 gulp.task('build', buildTask);

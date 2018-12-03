@@ -1,14 +1,20 @@
 {
-  "name": "chartjs-plugin-zoom",
-  "description": "Simple HTML5 charts using the canvas element.",
-  "version": "0.6.6",
-  "author": "Evert Timberg <evert.timberg@gmail.com>",
+  "name": "chartjs-plugin-brush",
+  "description": "Brush zoom functionality for chartjs",
+  "version": "0.0.1",
+  "author": "halfs13",
   "license": "MIT",
   "main": "src/chart.zoom.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chartjs/chartjs-plugin-zoom.git"
+    "url": "git+https://github.com/halfs13/chartjs-plugin-brush.git"
   },
+  "author": "halfs13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/halfs13/chartjs-plugin-brush/issues"
+  },
+  "homepage": "https://github.com/halfs13/chartjs-plugin-brush#readme",
   "devDependencies": {
     "browserify": "^16.2.2",
     "eslint": "^5.4.0",
