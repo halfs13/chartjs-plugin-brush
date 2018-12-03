@@ -2,8 +2,6 @@
   "name": "chartjs-plugin-brush",
   "description": "Brush zoom functionality for chartjs",
   "version": "0.0.1",
-  "author": "halfs13",
-  "license": "MIT",
   "main": "src/chart.zoom.js",
   "repository": {
     "type": "git",
